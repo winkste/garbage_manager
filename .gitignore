@@ -132,3 +132,6 @@ dmypy.json
 # My project specific ignores
 my_secrets.py
 .DS_Store
+
+# docker container images
+*.tar

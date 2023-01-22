@@ -63,8 +63,9 @@ def main():
     garbage_cal_objects.append(orga)
 
     # get the actual date and generate time window for checking
-    date_before = datetime.datetime.now() - datetime.timedelta(days=-1)
-    date_after = datetime.datetime.now() + datetime.timedelta(days=5)
+    date_before = datetime.datetime.now() - datetime.timedelta(days=2)
+    date_after = datetime.datetime.now() + datetime.timedelta(days=3)
+    logging.info("Date Range %s -> %s", date_before, date_after)
 
     # check if next garbage collection is within time window for all garbages
     for garbage_entry in garbage_cal_objects:

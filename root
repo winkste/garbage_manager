@@ -3,9 +3,9 @@
 # run every hour
 #0 * * * * python3 /bin/garbmgr.py
 # run every minute - THIS IS FOR TEST ONLY
-* * * * * python3 /bin/garbmgr.py
+#* * * * * python3 /bin/garbmgr.py
 # run every second hour
-#0 */2 * * * python3 /bin/garbmgr.py
+0 */2 * * * python3 /bin/garbmgr.py
 
 # * min(0-59)
 # * hour(0-23)
